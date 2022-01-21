@@ -26,7 +26,6 @@ import {
   ContainerPage,
   ContainerItemsPage,
   ChangerPage,
-  IndicePage,
   ContainerIndicePage,
 } from "./style";
 
@@ -35,7 +34,6 @@ import { ReactComponent as EditIcon } from "~/assets/icons/edit-table-action.svg
 import { ReactComponent as DeleteIcon } from "~/assets/icons/delete-table-action.svg";
 
 import { ReactComponent as SuccessIcon } from "~/assets/icons/success.svg";
-import { ReactComponent as ErroIconIcon } from "~/assets/icons/error.svg";
 
 const data = [
   {

@@ -1,6 +1,5 @@
 import { call, put } from "redux-saga/effects";
 import { push } from "connected-react-router";
-import { toastr } from "react-redux-toastr";
 import axios from "axios";
 import api from "~/service/api";
 
@@ -24,7 +23,7 @@ export function* signIn({ email, password }) {
 export function* createAccount({ user }) {
   try {
     console.log(user);
-    const { data } = yield call(api.post, "/registro_usuario", user);
+    yield call(api.post, "/registro_usuario", user);
   } catch (err) {
     console.log(err);
   }

@@ -1,7 +1,5 @@
 import styled from "styled-components";
 
-import BackgroundBanner from "~assets/images/banner.png";
-
 export const Container = styled.div`
   position: relative;
   display: flex;

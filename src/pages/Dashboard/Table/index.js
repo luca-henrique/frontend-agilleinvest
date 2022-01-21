@@ -12,7 +12,6 @@ import {
   ContainerPage,
   ContainerItemsPage,
   ChangerPage,
-  IndicePage,
   ContainerIndicePage,
 } from "./style";
 

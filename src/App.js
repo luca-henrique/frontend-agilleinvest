@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 import ReduxToastr from "react-redux-toastr";
 
@@ -12,11 +12,9 @@ import Routes from "./routes/index";
 function App() {
   return (
     <Provider store={store}>
-      <>
-        <Routes />
-        <GlobalStyle />
-        <ReduxToastr />
-      </>
+      <Routes />
+      <GlobalStyle />
+      <ReduxToastr />
     </Provider>
   );
 }
